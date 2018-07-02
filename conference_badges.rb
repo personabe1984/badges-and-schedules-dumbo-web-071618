@@ -24,7 +24,7 @@ def printer(attendees)
   end
   
   total_room = assign_rooms(attendees)
-  total_room.size.times do |room|
-    puts total_room[room]
+  for room in total_room do 
+    puts room 
   end
 end
