@@ -23,8 +23,8 @@ def printer(attendees)
     puts badge_maker
   end
   
-  
-  assign_rooms(attendees).size.times do |room|
-    puts room
+  total_room = assign_rooms(attendees)
+  total_room.size.times do |room|
+    puts total_room[room]
   end
 end
