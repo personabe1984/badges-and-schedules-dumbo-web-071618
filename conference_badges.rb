@@ -11,3 +11,11 @@ def batch_badge_creator(attendees)
   end
   batch_badges
 end
+
+def assign_rooms
+  
+end
+
+def printer
+  
+end
