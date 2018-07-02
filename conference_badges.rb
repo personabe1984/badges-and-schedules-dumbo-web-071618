@@ -14,7 +14,8 @@ end
 
 def assign_rooms(attendees)
   rooms = []
-  
+  attendees.each_with_index.map do 
+    
 end
 
 def printer
