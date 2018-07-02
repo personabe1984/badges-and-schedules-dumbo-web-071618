@@ -13,7 +13,6 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  rooms = []
   attendees.each_with_index.map do |attendee,i|
     
     
